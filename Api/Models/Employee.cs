@@ -7,5 +7,7 @@ namespace Api.Models
         public DateTime Date { get; set; }
 
         public string Summary { get; set; }
+
+        public Employee Manager { get; set; }
     }
 }

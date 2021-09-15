@@ -17,9 +17,9 @@ namespace Api.Controllers
         }
 
         [HttpGet]
-        public Employee GetEmployeeDetails(string employeeId)
+        public Employee GetEmployeeDetails(int employeeId)
         {
-            return new Employee();
+            return _employeeService.GetEmployeeDetails(employeeId);
         }
     }
 }

@@ -1,5 +1,7 @@
 
 using Api.Interfaces;
+using Api.Models;
+using System.Collections.Generic;
 
 namespace Api.Services
 {
@@ -11,6 +13,26 @@ namespace Api.Services
         {
             this.sqlService = sqlService;
             this.employeeService = employeeService;
+        }
+
+        public void AddNewIncident(Incident incident)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public List<Incident> GetAllIncidents()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Incident GetIncident(int id)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Incident UpdateIncident(int incidentId)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
